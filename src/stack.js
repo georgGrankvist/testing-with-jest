@@ -4,7 +4,13 @@ let stack = [];
 
 // Lägger ett element överst i stacken
 exports.push = function (x) {
-    stack.push(x);
+    if (x != null) 
+      stack.push(x);
+
+    else 
+     throw 'x is equal to null.'
+
+    
 };
 
 // Returnerar det översta elementet i stacken och tar bort det

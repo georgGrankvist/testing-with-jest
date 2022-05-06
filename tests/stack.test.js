@@ -6,9 +6,7 @@ test('peek on empty stack returns undefined', () => {
 });
 
 test ('pushing null to stack should not be possible', () => {
-   stack.push(1);
-   stack.push(null);
-   expect(stack.peek()).to.equal(1);
+   expect(() => stack.push(null)).to.throw('x is equal to null')
 });
 
 
