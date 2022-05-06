@@ -1,3 +1,4 @@
 # testing-with-jest
 A  Jest + npm lab session
-Lab, flerplattformsapplikationer
+Lab, Flerplattformsapplikationer
+Small change to txt
